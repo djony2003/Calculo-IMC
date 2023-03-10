@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@300&display=swap");
+
+section {
+  display: flex;
+  flex-direction: column;
+  width: 60vw;
+  border: solid rgb(121, 174, 196) 5px; 
+  max-width: 200px;
+  min-width: 200px;
+  padding: 5px 20px 2px 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(121, 162, 162);
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  color: aliceblue;
+  
+  
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+}
+
+button {
+  background-color: rgba(29, 41, 48, 0.61);
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 8px;
+  padding: 3px 20px 3px 20px;
+  transition-duration: 500ms;
+}
+
+button:hover {
+  background-color: rgba(29, 41, 48, 0.61);
+  color: rgb(255, 255, 255);
+  transform: translateX(4px);
+  }
+
+.buttons {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgb(80, 130, 130);
+  border-radius: 10px;
+  padding: 5px;
+}
+
+input {
+  min-width: 90px;
+  border-radius: 5px;
+  border-style: hidden;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Shantell Sans", cursive;
+  background-color: rgba(69, 82, 89, 0.61);
+  font-size: large;
+  color: aliceblue;
+  padding: 5px;
+  border-radius: 15px;
+}
+h2 {
+  font-family: "Shantell Sans", cursive;
+  font-size: medium;
+  color: rgba(248, 249, 255, 0.897);
+  text-align: center;
+  padding: 5px 5px;
+}
+#_resultado {
+  font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 10px;
+  font-size: 14px;
+  
+  
+}
+
+#_lb_Altura,
+#_lb_Peso {
+  margin-bottom: 5px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: rgb(255, 255, 255);
+}
